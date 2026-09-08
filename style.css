@@ -1,0 +1,186 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #252b49;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 130px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #20a9e8;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #20a9e8;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login:hover {
+    color: #20a9e8;
+}
+
+.join {
+    border: none;
+    background-color: #20a9e8;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join:hover {
+    background-color: white;
+    color: #20a9e8;
+}
+
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 130px;
+}
+
+.matn {
+    width: 50%;
+}
+
+.tepa {
+    color: #20a9e8;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.past {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.quote {
+    background-color: #20a9e8;
+    color: white;
+    border: 2px solid #20a9e8;
+    padding: 17px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quote:hover {
+    background-color: white;
+    color: #20a9e8;
+}
+
+.learn {
+    background-color: transparent;
+    color: #20a9e8;
+    border: 2px solid #20a9e8;
+    padding: 17px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.learn:hover {
+    background-color: #20a9e8;
+    color: white;
+}
+
+
+/* RASMLAR */
+
+.rasmlar {
+    width: 500px;
+    height: 580px;
+    position: relative;
+}
+
+.katta {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    border-radius: 8px;
+}
+
+.katta:hover {
+    transform: scale(1.03);
+}
+
+.kichik {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.kichik:hover {
+    transform: scale(1.05);
+}
+
+.yashil {
+    width: 120px;
+    height: 140px;
+    background-color: #5bbdb5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
